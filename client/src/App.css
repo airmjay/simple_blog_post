@@ -1,0 +1,189 @@
+*
+{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+overflow-x: hidden;
+
+}
+.container
+{
+  min-height: 100vh;
+  width:100%;
+  margin-top: 10px;
+}
+.post-card{
+  width:50%;
+  margin:auto;
+  margin-top: 10px;
+  border-radius: 10px;
+  
+}
+.card-title
+{
+  background: rgb(154, 203, 243);
+  padding:10px;
+  width: 100%;
+}
+.Formik 
+{
+  width: 100%;
+  margin-top: 40px;
+  /* line-height: 30px; */
+}
+form
+{
+  width:50%;
+  margin: auto;
+  padding: 30px;
+  background-color: #f7f7f7;
+  color: black;
+  border-radius: 10px;
+  border: 2px solid black;
+}
+label 
+{
+  width:60%; 
+  display: block;
+  width: 100%;
+}
+.Formik span{
+  color: rgb(241, 37, 37);
+}
+.form-submit:hover
+{
+  padding:9px;
+}
+.form-submit
+{
+  transition: all 20ms;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: rgb(91, 91, 245);
+  color: white;
+  outline:none;
+  border: none;
+}
+.field:focus
+{
+  border: none;
+  border-bottom: 2px solid rgb(250, 162, 162);
+ 
+}
+.field
+{
+  border: none;
+  border-bottom:4px solid hwb(240 58% 40%) ;
+  padding:10px;
+  display: block;
+  outline: none;
+  width: 100%;
+
+}
+ul
+{
+  background-color: rgb(61, 59, 59);
+  height: 30px;
+  display: flex;
+  align-self: center;
+  
+}
+.post-card:hover
+{
+ transform: scale(1.01);
+ box-shadow: 1px 1px 5px 5px rgba(1,1,1,0.1);
+ cursor: pointer;
+}
+ul a:hover
+{
+  font-size: 15px;
+} 
+ul a 
+{
+  text-decoration: none;
+  color:white;
+}
+ul li 
+{
+  list-style: none;
+  align-self: center;
+  padding-left: 10px;
+}
+.card-body
+{
+  padding:10px 10px 0 10px;
+  min-height: 100px;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+
+}
+.card-body-1
+{
+  padding:10px 10px 0 10px;
+  min-height: 300px;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+
+}
+.card-name
+{
+  padding:10px 10px 10px 10px;
+  font-weight: 900;
+  background: rgb(154,203,243);
+}
+.post-display
+{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 30px;
+  padding: 10px;
+  margin-top: 40px;
+}
+.post-card-1{
+  width:100%;
+  margin:auto;
+  margin-top: 10px;
+  border-radius: 10px;
+  
+}
+.leftSide
+{
+  width: 100%;
+}
+.post-card-1{
+  width:100%;
+  margin:auto;
+  margin-top: 10px;
+  border-radius: 10px;
+  
+}
+.comment-div
+{
+  border: 1px solid rgb(206, 205, 205);
+  margin-top: 10px;
+  padding: 0px;
+  box-shadow: 1px 1px 1px rgb(0,0,0,0.1);
+  border-radius: 5px;
+}
+.comment-comment
+{
+   padding: 10px;
+}
+.comment-username
+{
+   background-color: rgb(93, 93, 245);
+   color:#f7f7f7;
+   padding: 5px;
+}
+.rightSide
+{
+  margin-top:20px;
+}
+.logout
+{
+  border: none;
+  background-color: rgb(64, 64, 248); 
+  padding: 5px;
+  color: white;
+  outline: none;
+}
